@@ -2,16 +2,16 @@ package com.practise;
 
 public class TaskOne {
 	 
-	public void methodOne() {
-		System.out.println("this is method one");
+	public void methodFour() {
+		System.out.println("sri branch this is method four");
 	}
-		public void methodTwo() {
-		System.out.println("this is method two");
+		public void methodFive() {
+		System.out.println("sri branch this is method five");
     }
 	
   public static void main(String[] args) {
 	TaskOne to=new TaskOne();
-	to.methodOne();
-	to.methodTwo();
+	to.methodFour();
+	to.methodFive();
 }
 }
